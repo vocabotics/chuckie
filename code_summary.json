@@ -1,0 +1,43 @@
+{
+  "files": {
+    "src/types.ts": "Defines GameState interface and Direction type",
+    "src/hooks/useGameLoop.ts": "Game loop hook using requestAnimationFrame",
+    "src/hooks/useKeyboardControls.ts": "Handles keyboard input for player movement",
+    "src/stores/gameStore.ts": "Zustand store for game state management",
+    "src/components/Player.tsx": "Animated player component with framer-motion",
+    "src/components/Enemy.tsx": "Enemy component with pulsating animation",
+    "src/components/Egg.tsx": "Collectible egg component with collection animation",
+    "src/components/HUD.tsx": "Heads-up display showing score and lives",
+    "src/pages/Home.tsx": "Main menu page with start button",
+    "src/pages/Game.tsx": "Main game screen with game board and components",
+    "src/App.tsx": "Root component with routing and theme provider"
+  },
+  "components": [
+    "Player",
+    "Enemy",
+    "Egg",
+    "HUD",
+    "Home",
+    "Game"
+  ],
+  "hooks": [
+    "useGameLoop",
+    "useKeyboardControls"
+  ],
+  "state_management": "Zustand store for game state",
+  "routing": [
+    "/ - Home",
+    "/game - Game"
+  ],
+  "animations": "framer-motion for player/enemy movements",
+  "ui_library": "shadcn/ui components (Button, Progress, Badge)",
+  "styling": "Tailwind CSS for layout and styling",
+  "features": [
+    "Theme switching (dark/light/system)",
+    "Keyboard controls",
+    "Collision detection",
+    "Score tracking",
+    "Lives system",
+    "Game over screen"
+  ]
+}
